@@ -30,7 +30,21 @@ const Header = () =>  (
           <NavLink>Contact</NavLink>
         </Link>
       </li>
-    </Div2>
+    </Div2>    
+    <Div3>
+      <SocialIcons href="https://twitter.com/CindyDorantes10">
+        <AiOutlineTwitter size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/cindydorantessanchez/">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://github.com/CindyDorantes">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://medium.com/@cindym.dorantes">
+        <AiOutlineMedium size="3rem" />
+      </SocialIcons>
+    </Div3>
   </Container>
 );
 
