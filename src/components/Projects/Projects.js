@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub, AiFillEye } from 'react-icons/ai';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
@@ -26,6 +27,10 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          <UtilityList>
+            <ExternalLinks href={source}>See Source <AiFillGithub size="2rem" /></ExternalLinks>
+            <ExternalLinks href={visit}>See Live <AiFillEye size="2rem" /></ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
