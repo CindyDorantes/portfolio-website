@@ -13,6 +13,45 @@ const Technologies = () =>  (
     <RedButton href="https://drive.google.com/file/d/1Ir5hmk7g8v1Q9MulCQYgfPPAf_yNT0MA/view?usp=share_link" style={{ width: "15rem"}}>
       Get my resume
     </RedButton>
+    <List>
+      <ListItem>
+        <DiReact size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            JavaScript <br />
+            React <br />
+            Redux <br />
+            HTML5 <br />
+            CSS3 <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Ruby <br />
+            Ruby on Rails <br />
+            MySQL <br />
+            PostgreSQL <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiGit size="3rem" />
+        <ListContainer>
+          <ListTitle>Tools & Methods</ListTitle>
+          <ListParagraph>
+            Git <br />
+            GitHub <br />
+            RSpec <br />
+            Jest <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
     
   </Section>
 );
