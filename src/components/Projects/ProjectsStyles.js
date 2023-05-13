@@ -7,6 +7,10 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    height: auto;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -80,7 +84,6 @@ export const CardInfo = styled.p`
   
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
