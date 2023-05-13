@@ -33,16 +33,16 @@ const Header = () =>  (
     </Div2>    
     <Div3>
       <SocialIcons href="https://twitter.com/CindyDorantes10">
-        <AiOutlineTwitter size="3rem" />
+        <AiOutlineTwitter size="2.5rem" />
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/cindydorantessanchez/">
-        <AiFillLinkedin size="3rem" />
+        <AiFillLinkedin size="2.5rem" />
       </SocialIcons>
       <SocialIcons href="https://github.com/CindyDorantes">
-        <AiFillGithub size="3rem" />
+        <AiFillGithub size="2.5rem" />
       </SocialIcons>
       <SocialIcons href="https://medium.com/@cindym.dorantes">
-        <AiOutlineMedium size="3rem" />
+        <AiOutlineMedium size="2.5rem" />
       </SocialIcons>
     </Div3>
   </Container>
