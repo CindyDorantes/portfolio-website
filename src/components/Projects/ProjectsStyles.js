@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
+  border-radius: 10px;
+  margin: 3rem;
+  width: calc(100% - 6rem);
   height:100%;
   object-fit: cover;
   overflow: hidden;
@@ -72,7 +74,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  // text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -103,10 +105,15 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+border: 1px solid #d8bfbf;
+padding: 0.8rem;
+margin: 1rem;
+border-radius: 1rem;
 `
