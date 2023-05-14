@@ -6,8 +6,14 @@ export const Container = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  padding: 1rem;
-  padding-top: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  // padding: 1rem;
+  // padding-top: 2rem;
+  position: fixed;
+  background-color: #0f1624;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+  z-index: 1;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
