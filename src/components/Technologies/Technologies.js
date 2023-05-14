@@ -8,7 +8,11 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle><br />About me</SectionTitle>
     <SectionText>
-    I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+      I am a highly skilled full-stack developer with expertise in several key technologies.
+      <br /><br />
+      With a track record of delivering high-quality, responsive solutions, I am confident in my ability to take on any development challenge.
+      <br /><br />
+      Outside of my professional pursuits, I am a meditation practitioner and amateur photographer with a deep passion for cinematography. 
     </SectionText>
     <RedButton href="https://drive.google.com/file/d/1Ir5hmk7g8v1Q9MulCQYgfPPAf_yNT0MA/view?usp=share_link" style={{ width: "15rem"}}>
       Get my resume
