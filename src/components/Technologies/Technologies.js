@@ -14,7 +14,8 @@ const Technologies = () =>  (
       <br /><br />
       Outside of my professional pursuits, I am a meditation practitioner and amateur photographer with a deep passion for cinematography. 
     </SectionText>
-    <RedButton href="https://drive.google.com/file/d/1Ir5hmk7g8v1Q9MulCQYgfPPAf_yNT0MA/view?usp=share_link" style={{ width: "15rem"}}>
+    <RedButton href="https://drive.google.com/file/d/1Ir5hmk7g8v1Q9MulCQYgfPPAf_yNT0MA/view?usp=share_link" 
+      style={{ width: "15rem"}} target="_blank" rel="noopener noreferrer">
       Get my resume
     </RedButton>
     <List>
