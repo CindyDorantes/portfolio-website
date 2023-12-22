@@ -28,7 +28,11 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">See Source <AiFillGithub size="2rem" /></ExternalLinks>
-            <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">See Live <AiFillEye size="2rem" /></ExternalLinks>
+            {visit && (
+              <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">
+                See Live <AiFillEye size="2rem" />
+              </ExternalLinks>
+            )}
           </UtilityList>
         </BlogCard>
       ))}

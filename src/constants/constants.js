@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/expense-tracker-mockup.jpeg',
     tags: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'Devise'],
     source: 'https://github.com/CindyDorantes/Expense-tracker',
-    visit: 'https://github.com/CindyDorantes/Expense-tracker',
+    visit: 'https://expense-tracker-m4g6.onrender.com/',
     id: 1,
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/catalog-of-my-things-screeshot.png',
     tags: ['Ruby', 'RSpec', 'PostgreSQL'],
     source: 'https://github.com/CindyDorantes/catalog-of-my-things',
-    visit: 'https://github.com/CindyDorantes/catalog-of-my-things',
+    visit: false,
     id: 3,
   },
 ];
