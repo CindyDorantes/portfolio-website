@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillEye } from 'react-icons/ai';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents/index';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (

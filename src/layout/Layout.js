@@ -12,4 +12,4 @@ export const Layout = ({children}) => {
      <Footer/>
     </Container>
   )
-}
+};

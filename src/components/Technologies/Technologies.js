@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiGit } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents/index';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, RedButton } from './TechnologiesStyles';
 
 const Technologies = () =>  (

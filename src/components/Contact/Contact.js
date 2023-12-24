@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents/index';
 import { ContactGrid, HeaderThree, Form, UL, LI,  Input, TextArea, RedButton } from './ContactStyles';
 
 const Contact = () => (

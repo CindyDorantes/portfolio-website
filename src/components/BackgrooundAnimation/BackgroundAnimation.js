@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BackgroundAnimation = () => (
+const BgAnimation = () => (
   <div>
     <svg
       className="BgAnimation__svg"
@@ -362,4 +362,4 @@ const BackgroundAnimation = () => (
   </div>
 );
 
-export default BackgroundAnimation;
+export default BgAnimation;
